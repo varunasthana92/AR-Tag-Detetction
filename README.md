@@ -1,5 +1,45 @@
 ## AR-Tag Detection and replacement with another image and a virtual 3D cube.
 
+<p align="center">
+<img src="https://github.com/varunasthana92/AR-Tag-Detetction/blob/master/images/tag_detect.gif">
+</p>
+
+### Pipeline
+* AR-Tag detected using OpenCV findcontour() function. Homography computed to warp the detected tag to world reference.
+<img src="https://github.com/varunasthana92/AR-Tag-Detetction/blob/master/images/detectedTag.png" >
+
+<p align="center">
+<img src="https://github.com/varunasthana92/AR-Tag-Detetction/blob/master/images/intermediate/warped_detection.png" >
+Detected tag warped to world reference
+</p>
+
+* Detection output pre-processing for better result. Scaled the detected tag to fit the grid size as per the reference AR-tag.
+<p align="center">
+<img src="https://github.com/varunasthana92/AR-Tag-Detetction/blob/master/images/ref_marker_grid.png" >
+Reference AR-Tag
+</p>
+
+<p align="center">
+<img src="https://github.com/varunasthana92/AR-Tag-Detetction/blob/master/images/intermediate/warped_thresh.jpg" >
+Thresholding to get binary image
+</p>
+
+<p align="center">
+<img src="https://github.com/varunasthana92/AR-Tag-Detetction/blob/master/images/intermediate/warped_thresh_scaled.png" >
+Scaled to match 4X4 grid size
+</p>
+
+* Orientation and tag-id was computed as per the encoding scheme provided, by analyzing each grid cell.
+
+* Computed homograpghy between the detected tag and a reference tag. Using this, computed the camera projection matrix (with calibration matrix already available).
+
+* Implemented a image warping function using the camera projection matrix to replace the tag with another image, and a 3D cube.
+<p><img src="https://github.com/varunasthana92/AR-Tag-Detetction/blob/master/images/Single_lena.png" ></p>
+
+<p><img src="https://github.com/varunasthana92/AR-Tag-Detetction/blob/master/images/virtualCube.jpeg" ></p>
+
+
+
 #### Dependencies
 
 - python3
