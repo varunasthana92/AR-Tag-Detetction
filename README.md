@@ -1,7 +1,7 @@
 ## AR-Tag Detection and replacement with another image and a virtual 3D cube.
 
 <p align="center">
-<img src="https://github.com/varunasthana92/AR-Tag-Detetction/blob/master/images/tag_detect.gif">
+<img src="https://github.com/varunasthana92/AR-Tag-Detetction/blob/master/images/tag_detect.gif" width=500, height = 300>
 </p>
 
 ### Pipeline
