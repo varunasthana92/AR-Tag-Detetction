@@ -9,7 +9,7 @@
 <p align="center">
 <img src="https://github.com/varunasthana92/AR-Tag-Detetction/blob/master/images/detectedTag.png" wwidth=500, height = 300>>
 </p>
-<p align="cente">
+<p align="center">
 <img src="https://github.com/varunasthana92/AR-Tag-Detetction/blob/master/images/Intermediate/warped_detection.png" wwidth=500, height = 300><br>
 Detected tag warped to world reference
 </p>
@@ -74,24 +74,4 @@ $ python3 cube.py --Video="Provide path to your video file"
 To exit the video, press Q.
 
 For more details, read the Report.pdf
-
-### Output Images
-Tag Detection-
-<p align="center">
-<img src="https://github.com/varunasthana92/AR-Tag-Detetction/blob/master/images/detectedTag.png">
-</p>
-
-Tag Replacement with an image
-<p align="center">
-<img src="https://github.com/varunasthana92/AR-Tag-Detetction/blob/master/images/Single_lena.png">
-</p>
-
-<p align="center">
-<img src="https://github.com/varunasthana92/AR-Tag-Detetction/blob/master/images/maultiple_lena.jpeg">
-</p>
-
-Tag Replacement with a virtual 3D cube
-<p align="center">
-<img src="https://github.com/varunasthana92/AR-Tag-Detetction/blob/master/images/virtualCube.jpeg">
-</p>
 
