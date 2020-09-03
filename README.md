@@ -9,7 +9,7 @@
 <img src="https://github.com/varunasthana92/AR-Tag-Detetction/blob/master/images/detectedTag.png" >
 
 <p align="center">
-<img src="https://github.com/varunasthana92/AR-Tag-Detetction/blob/master/images/intermediate/warped_detection.png" >
+<img src="https://github.com/varunasthana92/AR-Tag-Detetction/blob/master/images/Intermediate/warped_detection.png" width=200, height = 200>
 Detected tag warped to world reference
 </p>
 
@@ -20,12 +20,12 @@ Reference AR-Tag
 </p>
 
 <p align="center">
-<img src="https://github.com/varunasthana92/AR-Tag-Detetction/blob/master/images/intermediate/warped_thresh.jpg" >
+<img src="https://github.com/varunasthana92/AR-Tag-Detetction/blob/master/images/Intermediate/warped_thresh.jpg" >
 Thresholding to get binary image
 </p>
 
 <p align="center">
-<img src="https://github.com/varunasthana92/AR-Tag-Detetction/blob/master/images/intermediate/warped_thresh_scaled.png" >
+<img src="https://github.com/varunasthana92/AR-Tag-Detetction/blob/master/images/Intermediate/warped_thresh_scaled.png" >
 Scaled to match 4X4 grid size
 </p>
 
@@ -34,9 +34,9 @@ Scaled to match 4X4 grid size
 * Computed homograpghy between the detected tag and a reference tag. Using this, computed the camera projection matrix (with calibration matrix already available).
 
 * Implemented a image warping function using the camera projection matrix to replace the tag with another image, and a 3D cube.
-<p><img src="https://github.com/varunasthana92/AR-Tag-Detetction/blob/master/images/Single_lena.png" ></p>
+<p><img src="https://github.com/varunasthana92/AR-Tag-Detetction/blob/master/images/Single_lena.png" width=200, height = 200></p>
 
-<p><img src="https://github.com/varunasthana92/AR-Tag-Detetction/blob/master/images/virtualCube.jpeg" ></p>
+<p><img src="https://github.com/varunasthana92/AR-Tag-Detetction/blob/master/images/virtualCube.jpeg" width=200, height = 200></p>
 
 
 
