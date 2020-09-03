@@ -6,7 +6,7 @@
 
 ### Pipeline
 * AR-Tag detected using OpenCV findcontour() function. Homography computed to warp the detected tag to world reference.
-<img src="https://github.com/varunasthana92/AR-Tag-Detetction/blob/master/images/detectedTag.png" >
+<img src="https://github.com/varunasthana92/AR-Tag-Detetction/blob/master/images/detectedTag.png" wwidth=500, height = 300>>
 
 <p align="center">
 <img src="https://github.com/varunasthana92/AR-Tag-Detetction/blob/master/images/Intermediate/warped_detection.png" wwidth=500, height = 300><br>
@@ -20,12 +20,12 @@ Reference AR-Tag
 </p>
 
 <p align="center">
-<img src="https://github.com/varunasthana92/AR-Tag-Detetction/blob/master/images/Intermediate/warped_thresh.jpg" ><br>
+<img src="https://github.com/varunasthana92/AR-Tag-Detetction/blob/master/images/Intermediate/warped_thresh.jpg" wwidth=985><br>
 Thresholding to get binary image
 </p>
 
 <p align="center">
-<img src="https://github.com/varunasthana92/AR-Tag-Detetction/blob/master/images/Intermediate/warped_thresh_scaled.png" ><br>
+<img src="https://github.com/varunasthana92/AR-Tag-Detetction/blob/master/images/Intermediate/warped_thresh_scaled.png" wwidth=80%><br>
 Scaled to match 4X4 grid size
 </p>
 
