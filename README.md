@@ -6,26 +6,27 @@
 
 ### Pipeline
 * AR-Tag detected using OpenCV findcontour() function. Homography computed to warp the detected tag to world reference.
-<img src="https://github.com/varunasthana92/AR-Tag-Detetction/blob/master/images/detectedTag.png" wwidth=500, height = 300>>
-
 <p align="center">
+<img src="https://github.com/varunasthana92/AR-Tag-Detetction/blob/master/images/detectedTag.png" wwidth=500, height = 300>>
+</p>
+<p align="cente">
 <img src="https://github.com/varunasthana92/AR-Tag-Detetction/blob/master/images/Intermediate/warped_detection.png" wwidth=500, height = 300><br>
 Detected tag warped to world reference
 </p>
 
 * Detection output pre-processing for better result. Scaled the detected tag to fit the grid size as per the reference AR-tag.
 <p align="center">
-<img src="https://github.com/varunasthana92/AR-Tag-Detetction/blob/master/images/ref_marker_grid.png" ><br>
+<img src="https://github.com/varunasthana92/AR-Tag-Detetction/blob/master/images/ref_marker_grid.png" wwidth=200, height = 200><br>
 Reference AR-Tag
 </p>
 
 <p align="center">
-<img src="https://github.com/varunasthana92/AR-Tag-Detetction/blob/master/images/Intermediate/warped_thresh.jpg" wwidth=985><br>
+<img src="https://github.com/varunasthana92/AR-Tag-Detetction/blob/master/images/Intermediate/warped_thresh.jpg" wwidth=200, height = 200><br>
 Thresholding to get binary image
 </p>
 
 <p align="center">
-<img src="https://github.com/varunasthana92/AR-Tag-Detetction/blob/master/images/Intermediate/warped_thresh_scaled.png" wwidth=80%><br>
+<img src="https://github.com/varunasthana92/AR-Tag-Detetction/blob/master/images/Intermediate/warped_thresh_scaled.png" wwidth=200, height = 200> ><br>
 Scaled to match 4X4 grid size
 </p>
 
